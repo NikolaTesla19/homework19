@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <form id="books-travel" class="col s5">
+                    <div >
+                        <label for="title">Название</label>
+                        <input type="text" id="title">
+                    </div>
+                    <div>
+                        <label for="author">Автор</label>
+                        <input type="text" id="author">
+                    </div>
+                    <div>
+                        <label for="count">Количество страниц</label>
+                        <input type="text" id="count">
+                    </div>
+                    <div>
+                        <label for="type-wrapper">Тип обложки</label>
+                        <input type="text" id="type-wrapper">
+                    </div>
+                    <div>
+                        <input type="submit" id="submit-t" value="Добавить книгу">
+                    </div>
+                </form>
+        </div>
+        <div>
+            <form id="books-comics" class="col s5 offset-s2">
+                <div >
+                    <label for="title-c">Название</label>
+                    <input type="text" id="title-c">
+                </div>
+                <div>
+                    <label for="author-c">Автор</label>
+                    <input type="text" id="author-c">
+                </div>
+                <div>
+                    <label for="count-c">Количество страниц</label>
+                    <input type="text" id="count-c">
+                </div>
+                <div>
+                    <label for="number-count">Номер выпуска</label>
+                    <input type="text" id="number-count">
+                </div>
+                <div>
+                    <input type="submit" id="submit-c" value="Добавить книгу">
+                </div>
+            </form>
+        </div>
+    </div>
+        <ol id="list-books">
+            <ul class="head_list">
+                <li>Название книги</li>
+                <li>Автор книги</li>
+                <li>Действие</li>
+            </ul>
+            
+        </ol>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
